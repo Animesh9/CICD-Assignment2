@@ -9,9 +9,16 @@
 	<plugin>    
 	<groupId>org.apache.maven.plugins</groupId>             
 	<artifactId>maven-site-plugin</artifactId>             
-	<version>3.7.1</version>  
+	<version>3.6.3</version>  
 	</plugin>
 	</plugins>   
 	</pluginManagement>   
 	</build>
+	  <distributionManagement>
+	<snapshotRepository>
+		<id>full_pipeline</id>
+		<name>full_pipeline</name>
+		<url>http://localhost:8081/repository/full_pipeline/</url>
+	</snapshotRepository>
+  </distributionManagement>
 </project>
