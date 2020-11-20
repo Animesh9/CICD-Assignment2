@@ -16,9 +16,9 @@
 	</build>
 	  <distributionManagement>
 	<snapshotRepository>
-		<id>full_pipeline</id>
-		<name>full_pipeline</name>
-		<url>http://localhost:8081/repository/full_pipeline/</url>
+		<id>CICD_Assignment2</id>
+		<name>CICD_Assignment2</name>
+		<url>http://localhost:8081/repository/CICD_Assignment2/</url>
 	</snapshotRepository>
   </distributionManagement>
 </project>
